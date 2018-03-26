@@ -1,1 +1,1 @@
-r,r,r,z,z,Z,
+r,r,r,f,f,f,
