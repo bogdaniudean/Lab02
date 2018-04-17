@@ -19,7 +19,7 @@ public class BigBangIntegration
 
         addClient();
         addClientIndex();
-        getClients();
+        getClients() ;
     }
 
     @org.junit.Test
