@@ -4,7 +4,7 @@ import java.util.Objects;
 
 public class Issue
 {
-    public model.Client Client;
+    public Client Client;
     public int Year;
     public int Month;
     public float ToPay;
@@ -28,7 +28,7 @@ public class Issue
         this.Paid = issue.Paid;
     }
 
-    public Issue(model.Client client, int year, int month, float toPay, float paid)
+    public Issue(Client client, int year, int month, float toPay, float paid)
     {
         this.Client = client;
         this.Year = year;

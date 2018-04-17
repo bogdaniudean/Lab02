@@ -1,5 +1,3 @@
-
-
 import controller.ClientController;
 import repository.DataManager;
 import ui.ElectricaUI;

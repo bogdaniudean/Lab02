@@ -96,7 +96,7 @@ public class ClientController
                             }
                         }
 
-                        _dataManager.Issues.add(i);;
+                        _dataManager.Issues.add(i);
                         _dataManager.SaveChanges();
                         return null;
                     }

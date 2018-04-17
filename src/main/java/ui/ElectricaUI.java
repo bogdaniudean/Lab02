@@ -45,6 +45,7 @@ public class ElectricaUI
         menu += "\t 1 - to add a new client; \n";
         menu += "\t 2 - to add a new index; \n";
         menu += "\t 3 - to list the current invoices (and possible penalties or pending payment) of the subscribers; \n";
+        menu += "\t 4 - list the clients \n";
         menu += "\t 0 - exit \n";
 
         System.out.println(menu);
@@ -118,6 +119,13 @@ public class ElectricaUI
 
                 ctrl.ListIssue(c);
 
+            }
+            else if (cmd == 4)
+            {
+                System.out.println("The list of clients is: ");
+
+                for (int i = 0; i < ctrl.getClients().size(); i++)
+                    System.out.println(ctrl.getClients().get(i));
             }
 
             printMenu();
